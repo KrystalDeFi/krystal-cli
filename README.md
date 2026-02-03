@@ -10,8 +10,11 @@ npm install -g krystal-cli
 
 ## Quick Start
 
+1. Get your API key at [Krystal Cloud](https://cloud.krystal.app/)
+2. Login and start using the CLI:
+
 ```bash
-# 1. Login with your API key
+# Login with your API key
 krystal login <your-api-key>
 
 # 2. Start using the CLI
