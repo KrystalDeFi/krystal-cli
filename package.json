@@ -1,0 +1,49 @@
+{
+  "name": "krystal-cli",
+  "version": "0.1.0",
+  "description": "CLI tool for accessing Krystal Cloud API",
+  "main": "dist/index.js",
+  "bin": {
+    "krystal": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "krystal",
+    "defi",
+    "liquidity",
+    "crypto",
+    "cli",
+    "api"
+  ],
+  "author": "Krystal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyberNetwork/krystal-cli"
+  },
+  "homepage": "https://krystal.app",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "conf": "^10.2.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  }
+}
