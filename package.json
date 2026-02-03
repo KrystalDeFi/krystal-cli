@@ -1,6 +1,6 @@
 {
   "name": "krystal-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI tool for accessing Krystal Cloud API",
   "main": "dist/index.js",
   "bin": {
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KyberNetwork/krystal-cli"
+    "url": "https://github.com/KrystalDeFi/krystal-cli"
   },
   "homepage": "https://krystal.app",
   "engines": {
